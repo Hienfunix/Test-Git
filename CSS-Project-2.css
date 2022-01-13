@@ -1,0 +1,137 @@
+		ul {
+			list-style-type: none;
+			margin: auto;
+			padding: 0px;
+			overflow: hidden;
+			max-width:1278px;
+			font-family: arial;
+			font-size: 0.8em;
+			text-transform: uppercase;
+		} 
+			li.menu-left {
+			 float:left;
+		}
+			li.menu-right{
+			float:right;
+			
+		}
+			li.menu-left a{
+			text-decoration: none;
+			padding: 15px 20px;
+			display:inline-block;
+			font-weight:bold;
+			color: #7a7c80;
+		} 
+			li.menu-right a{
+			text-decoration: none;
+			padding: 15px;
+			color: #7a7c80;
+			display:inline-block;
+			font-weight:bold;
+		} 
+		div#banner {
+			background: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png") no-repeat top center;
+			position: relative;
+			padding: 250px;
+			background-position: 50% 50%;
+		} 
+		div.content {
+			color:white;
+			position:absolute;
+			top:140px;
+			left:185px;
+			line-height: 0.3;
+			font-size: 1.3em;
+			
+		}
+			
+			
+		div#image-full {
+			max-width:1278px;
+			margin:auto;
+			background-color:#efefef;
+			position:relative;
+			box-sizing: border-box;
+			overflow:auto;
+			border-bottom: 1px solid #bcc5cf;
+			
+		}
+		div.image-small {
+			
+			float:left;
+			width:31.00%;
+			margin-left: 5px;
+			margin-top: 85px;
+		}		
+			div#image-1-2 {
+			padding:26px 0px 5px 27px;
+			line-height:53px;
+
+		}
+			div#image-3-4 {
+			padding:26px 0px 5px 27px;
+			line-height:53px;
+		} 
+		div#image-5	{
+			padding:26px 0px 10px 20px;
+			line-height:40px;
+		} 
+		div.content-2{
+		padding: 30px 0px 0px 30px;
+		line-height: 15px;
+		font-family: arial;
+		font-size:0.8em;
+		color:#565759;
+		position:absolute;
+		}
+		
+		div#footer-all {
+			position:relative;
+			overflow:auto;
+			max-width:1278px;
+			margin:auto;
+			background-color:#f7f7f7;
+			font-family: helvetica;
+			font-size: 0.9em;
+			min-height: 200px;
+		}
+		div.content-3 {
+			width:28%;
+			float:left;
+			line-height:18px;
+			 padding: 0px 0px 30px 0px;
+			
+			
+			
+		}
+		div.content-3 a {
+			text-decoration:none;
+			color:	#199ae0;
+			
+		}	
+		
+		div#footer-1 {
+			
+			position:absolute;
+			bottom:5px;
+			left: 40px;
+			
+		} div#footer-2 {
+			position:absolute;
+			left: 470px;
+			bottom: 5px;
+
+
+		}
+		div#footer-3 {
+			position:absolute;	
+			bottom:5px;
+			right:30px;
+			
+			
+		}
+		
+		h4 {
+		font-family:times new roman;
+		font-size: 1.2em;
+		}
